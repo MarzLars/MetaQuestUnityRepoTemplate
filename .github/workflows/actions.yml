@@ -16,6 +16,7 @@ jobs:
     name: Build project ✨
     runs-on: ubuntu-24.04
     steps:
+      # Begin pulling Unity Docker image
       - name: Pull Unity Docker image in background
         run: |
           docker pull unityci/editor:ubuntu-6000.3.10f1-android-3 &
