@@ -100,7 +100,8 @@ InitTestScene*.unity*
 
 # Manually ignored files and folders
 BIP-VR-2026.slnx
-/.vscode
-.vsconfig
+/CompilerBrainCopilot
 /Assets/\#Meta
 Assets/\#Meta.meta
+/.vscode
+.vsconfig
